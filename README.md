@@ -1,46 +1,173 @@
-# Bluestock Internship – 2026 🚀
+# 📊 Mutual Fund Analytics
 
-This repository contains my work and learning outcomes from my internship at **Bluestock**, conducted under the **Startup India** initiative.
+A complete Python-based Data Analytics project that collects, processes, analyzes, and visualizes Mutual Fund data using Pandas and Matplotlib.
 
-## 📌 Internship Details
+---
 
-* **Organization:** Bluestock
-* **Program:** Internship
-* **Duration:** 24 July 2026 – 24 September 2026
-* **Duration:** 2 Months
-* **Certificate:** Internship Completion Certificate
+## 📌 Project Overview
 
-## 🎯 About the Internship
+This project performs end-to-end analysis of Mutual Fund datasets.
 
-During this internship, I worked on assigned tasks and gained practical exposure to a professional working environment. The internship helped me improve my technical knowledge, problem-solving abilities, and understanding of real-world project workflows.
+The workflow includes:
 
-## 🛠️ Skills & Learning
+- Data Collection
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Performance Analysis
+- Portfolio Analysis
+- Report Generation
 
-* Problem Solving
-* Project-Based Learning
-* Analytical Thinking
-* Task Management
-* Communication & Teamwork
-* Practical Application of Technical Skills
+---
 
-## 📂 Repository Contents
+## 🚀 Features
 
-This repository may contain:
+- Clean and process Mutual Fund datasets
+- Analyze NAV History
+- Analyze AUM by Fund House
+- Analyze Monthly SIP Inflows
+- Analyze Category-wise Inflows
+- Analyze Industry Folio Count
+- Analyze Scheme Performance
+- Analyze Investor Transactions
+- Analyze Portfolio Holdings
+- Analyze Benchmark Indices
+- Automatically generate visualization reports
 
-* Internship tasks and assignments
-* Project files
-* Documentation
-* Screenshots / outputs
-* Learning resources
-* Internship completion certificate
+---
 
-## 📈 Key Takeaways
+## 🛠️ Technologies Used
 
-* Gained practical exposure through hands-on internship tasks.
-* Improved problem-solving and technical skills.
-* Learned to complete tasks within given requirements and timelines.
-* Developed a better understanding of professional project workflows.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Git
+- GitHub
 
-## 🏆 Internship Completion
+---
 
-Successfully completed the Bluestock internship from **24 July 2026 to 24 September 2026** and received an **Internship Completion**
+## 📁 Project Structure
+
+```
+Mutual-Fund-Analytics
+│
+├── data/
+│   └── raw/
+│
+├── reports/
+│
+├── src/
+│   ├── config.py
+│   ├── data_ingestion.py
+│   ├── data_cleaning.py
+│   ├── eda.py
+│   ├── visualization.py
+│   └── live_nav_fetch.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📊 Generated Reports
+
+The project automatically creates visualization reports including:
+
+- Fund Master Analysis
+- NAV History Analysis
+- AUM Analysis
+- Monthly SIP Analysis
+- Category Inflow Analysis
+- Industry Folio Analysis
+- Scheme Performance Analysis
+- Investor Transaction Analysis
+- Portfolio Holdings Analysis
+- Benchmark Index Analysis
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/rukeshpulugu/Mutual_Fund_Analytics.git
+```
+
+Move into the project
+
+```bash
+cd Mutual_Fund_Analytics
+```
+
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate Virtual Environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run
+
+```bash
+python src/data_ingestion.py
+```
+
+```bash
+python src/data_cleaning.py
+```
+
+```bash
+python src/eda.py
+```
+
+```bash
+python src/visualization.py
+```
+
+---
+
+## 📈 Output
+
+All generated charts are stored inside the **reports/** folder.
+
+---
+
+## 🎯 Future Improvements
+
+- Interactive Dashboard
+- Streamlit Web Application
+- Live Mutual Fund API Integration
+- Power BI Dashboard
+- Predictive Analytics using Machine Learning
+
+---
+
+## 👨‍💻 Author
+
+**Rukesh Pulugu**
+
+GitHub:
+https://github.com/rukeshpulugu
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star.
